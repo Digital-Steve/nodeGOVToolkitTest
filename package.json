@@ -1,0 +1,19 @@
+{
+  "name": "nodegdstest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Server.js",
+  "dependencies": {
+    "express": "^4.16.2",
+    "govuk_frontend_toolkit": "^7.2.0",
+    "vue": "^2.5.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node Server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
