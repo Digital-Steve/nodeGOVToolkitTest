@@ -20,7 +20,7 @@ const app = express();
 // viewed at http://localhost:8081
 // Send home page
 app.get('/', function(req, res) {
-    res.sendFile(__dirname + '/view/startPage.html');
+    res.sendFile(__dirname + '/startPage.html');
     //res.sendFile(__dirname + '/view/clientScripts/startPageVueVariables.js')
 });
 
